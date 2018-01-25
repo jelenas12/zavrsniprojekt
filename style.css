@@ -74,6 +74,14 @@
 	background-color: #F8C40F;
 	cursor: pointer;
 }
+
+.hamburger.glyphicon{
+	font-size: 24pt;
+	margin-top:30px;
+	cursor: pointer;
+	
+}
+
 @media screen and (max-width:760px) {
 	
 	.main-menu {
@@ -88,6 +96,12 @@
 	}
 	.hamburger {
 		display: block;
+	}
+}
+
+@media screen and (min-width:761px){
+	.main-menu {
+		display: block!important;
 	}
 }
 
