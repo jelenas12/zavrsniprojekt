@@ -43,7 +43,7 @@
 }
 .main-menu {
 	width: 100%;
-	background-color: #F8C40F;
+	background-color: #AD6FCF;
 }
 .main-menu li {
 	display: inline-block;
@@ -59,7 +59,7 @@
 	padding-right: 40px;
 }
 .main-menu li:hover {
-	background-color: #EB5757;
+	background-color: #DDB9F1;
 }
 .main-menu li:hover a {
 	color: #fff;
