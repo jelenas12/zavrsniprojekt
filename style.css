@@ -6,11 +6,11 @@
 }
 .header a {
 	text-transform: uppercase;
-	color: #fff;
-	font-size: 24pt;
+	color: #000;
+	font-size: 30pt;
 	margin: 40px 0 0 40px;
 	display: block;	
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 
 }
 .header a:hover {
@@ -21,7 +21,7 @@
 	color: #fff;
 	text-align: center;
 	margin-top: 150px;
-	font-family: 'Lobster', cursive;
+	font-family: 'Marck Script', cursive;
 	text-transform: lowercase;
 }
 
@@ -43,7 +43,7 @@
 }
 .main-menu {
 	width: 100%;
-	background-color: #AD6FCF;
+	background-color: #F0F0F0;
 }
 .main-menu li {
 	display: inline-block;
@@ -54,15 +54,16 @@
 	display: block;
 	line-height: 100px;
 	color: #000;
-	font-size: 18pt;
+	font-size: 20pt;
 	padding-left: 40px;
 	padding-right: 40px;
+	font-family: 'Gloria Hallelujah', cursive;
 }
 .main-menu li:hover {
-	background-color: #DDB9F1;
+	background-color: #D0D0D0;
 }
 .main-menu li:hover a {
-	color: #fff;
+	color: #FFF;
 	text-decoration:none;
 }
 
@@ -71,7 +72,7 @@
 	text-align: right;
 	padding-right: 50px;
 	line-height: 100px;
-	background-color: #F8C40F;
+	background-color: #F0F0F0;
 	cursor: pointer;
 }
 
@@ -142,7 +143,7 @@
 
 .form-div{
 	padding: 50px 0 40px 20px;
-	background-color: #F8C40F;
+	background-color: #F0F0F0;
 }
 .form-main{
 	width: 100%;
@@ -223,8 +224,9 @@
 }
 
 .video1{
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	 
 }
 
 .square-blocks div{
@@ -245,8 +247,9 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
-	font-size: 18pt;
+	font-size: 22pt;
 	text-transform: uppercase;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .section-title {
@@ -257,12 +260,12 @@
 }
 
 .section {
-	margin: 75px 0;
+	margin: 60px 0;
 }
 
 .square-blocks span {
 	font-size: 52pt;
-	color: #F8C40F; 
+	color: #8E00CC; 
 }
 
 .square-blocks a {

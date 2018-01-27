@@ -11,6 +11,8 @@
 	<link href="js/lightbox/css/lightbox.css" rel="stylesheet">
 	<link href="style.css" rel="stylesheet">
 	
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Marck+Script|Yanone+Kaffeesatz" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -22,11 +24,14 @@
 			<div class="row">
 				<div class="col-xs-12 header">
 				<a href="index.html">Portfolio </a>
-				<p> Hello world! </p>
+				<p> Contact </p>
 				</div>
 			</div>
 			
 			<div class="row">
+						<div class="hamburger">
+					<span class="glyphicon glyphicon-menu-hamburger" ></span>
+				</div>
 				<ul class="main-menu">
 					<li><a href = "index.html">Home</a></li>
 					<li><a href = "about_me.html">About me</a></li>
@@ -35,62 +40,8 @@
 				</ul>
 			</div>
 			
-			<div class="row gallery">
 			
-				<div class="col-xs-6 image-container">
-					<img src="img/thumbnail/1.jpg">
-					<a href="img/1.jpg" data-lightbox="featured-works">
-						<div class="overlay">
-							<p>Grafički dizajn</p>
-						</div>
-					</a>
-				</div>
-				
-				<div class="col-xs-6 image-container">
-					<img src="img/thumbnail/2.jpg">
-					<a href="img/2.jpg" data-lightbox="featured-works">
-						<div class="overlay">
-							<p>Fotografija</p>
-						</div>
-					</a>
-				</div>
-				
-				<div class="col-xs-6 image-container">
-					<img src="img/thumbnail/3.jpg">
-					<a href="img/3.jpg" data-lightbox="featured-works">
-						<div class="overlay">
-							<p>Video</p>
-						</div>
-					</a>
-				</div>
-				
-				<div class="col-xs-6 image-container">
-					<img src="img/thumbnail/4.jpg">
-					<a href="img/4.jpg" data-lightbox="featured-works">
-						<div class="overlay">
-							<p>Ilustracije</p>
-						</div>
-					</a>
-				</div>
-				
-				<div class="col-xs-6 image-container">
-					<img src="img/thumbnail/5.jpg">
-					<a href="img/5.jpg" data-lightbox="featured-works">
-						<div class="overlay">
-							<p>Glazbena produkcija</p>
-						</div>
-					</a>
-				</div>
-				
-				<div class="col-xs-6 image-container">
-					<img src="img/thumbnail/6.jpg">
-					<a href="img/6.jpg" data-lightbox="featured-works">
-						<div class="overlay">
-							<p>Tisak</p>
-						</div>
-					</a>
-				</div>
-			</div>
+			
 			
 			<div class="row">
 				<div class="col-xs-12 form-div">
@@ -124,5 +75,12 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="bootstrap/js/bootstrap.min.js"></script>
 		<script src="js/lightbox/js/lightbox.js"></script>
+		
+		<script>
+		
+			$('.hamburger').click(function(){
+				$('.main-menu').slideToggle();
+			});
+		</script>
   </body>
 </html>
