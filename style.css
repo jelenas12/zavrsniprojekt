@@ -1,3 +1,7 @@
+body {
+    background-image: url("img/gplaypattern.png")
+}
+
 
 .header {
 	height: 600px;
@@ -18,7 +22,7 @@
 	text-decoration:none;
 }
 .header p {
-	font-size: 52pt;
+	font-size: 40pt;
 	color: #fff;
 	text-align: center;
 	margin-top: 150px;
@@ -57,11 +61,11 @@
 	display: block;
 	line-height: 100px;
 	color: #000;
-	font-size: 30pt;
+	font-size: 24pt;
 	padding-left: 40px;
 	padding-right: 40px;
+	text-transform: uppercase;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
-
 }
 .main-menu li:hover {
 	background-color: #D0D0D0;
@@ -115,6 +119,16 @@
 }
 .gallery div {
 	padding: 0px 0px 0px 0px;
+}
+
+.gallery h1{
+	text-transform: uppercase;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 40px;
+	margin-top: 50px;
+	margin-bottom: 15px;
+	color: #000;
+	
 }
 .overlay {
 	position: absolute;
@@ -220,17 +234,18 @@
 	margin-bottom: 20px;
 }
 
-.slideshow {
-	height: 500px;
-	width:100%;
-	margin-bottom: 20px;
-	padding: 0;
-}
+
 
 .video1{
 	margin-top: 15px;
 	margin-bottom: 15px;
 	 
+}
+.video1 h1{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 40px;
+	text-transform: uppercase;
+	margin: 15px 0 15px 0;
 }
 
 .square-blocks div{
@@ -269,7 +284,7 @@
 
 .square-blocks span {
 	font-size: 45pt;
-	color: #F6B6A0; 
+	color: #F6B6A0;
 	
 }
 
@@ -294,6 +309,13 @@
 }
 .section h1{
 	font-family: 'Yanone Kaffeesatz', sans-serif;
-	font-size: 40px;
+	font-size: 35px;
 	text-transform: uppercase;
+}
+
+#vegas {
+	height: 500px;
+	width:100%;
+	margin-bottom: 20px;
+	padding: 0;
 }

@@ -21,7 +21,8 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="js/lightbox/css/lightbox.css" rel="stylesheet">
 	<link href="style.css" rel="stylesheet">
-	
+			<link href="vegas/vegas.min.css" rel="stylesheet">
+
 	
 	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Marck+Script|Yanone+Kaffeesatz" rel="stylesheet">
@@ -55,8 +56,17 @@
 				</ul>
 			</div>
 			
-			<div class="row gallery">
 			
+	
+			<div class="section">
+				
+				<div class="row gallery">
+					<div class="col-xs-12" id="vegas"></div>
+				</div>
+			</div>
+			
+			<div class="row gallery">
+			<h1> Izdvojeni radovi </h1>
 				<div class="col-xs-6 image-container">
 					<img src="img/thumbnail/1.png">
 					<a href="img/1.png" data-lightbox="featured-works">
@@ -65,7 +75,14 @@
 						</div>
 					</a>
 				</div>
-				
+					<div class="col-xs-6 image-container">
+					<img src="img/thumbnail/4.png">
+					<a href="img/4.png" data-lightbox="featured-works">
+						<div class="overlay">
+							<p>Ilustracije</p>
+						</div>
+					</a>
+				</div>
 				<div class="col-xs-6 image-container">
 					<img src="img/thumbnail/2.jpg">
 					<a href="img/2.jpg" data-lightbox="featured-works">
@@ -77,14 +94,7 @@
 				
 			
 				
-				<div class="col-xs-6 image-container">
-					<img src="img/thumbnail/4.png">
-					<a href="img/4.png" data-lightbox="featured-works">
-						<div class="overlay">
-							<p>Ilustracije</p>
-						</div>
-					</a>
-				</div>
+			
 				
 			
 				
@@ -132,7 +142,25 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="bootstrap/js/bootstrap.min.js"></script>
 		<script src="js/lightbox/js/lightbox.js"></script>
-		
+	
+	
+				<script src="vegas/vegas.min.js"></script>
+		<script>
+			$("#vegas").vegas({
+				slides: [
+					{ src: "img/2.jpg" },
+					{ src: "img/7.JPG" },
+					
+					{ src: "img/3.jpg" },
+					{ src: "img/5.jpg" },
+					{ src: "img/4.png" },
+					{ src: "img/8.JPG" }
+				],
+				 transition: [ 'fade', 'zoomOut', 'slideRight2' ]
+			});			
+		</script>
+
+
 		
 		<script>
 		
