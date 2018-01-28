@@ -41,6 +41,8 @@
 		margin: 0;
 	}
 }
+
+
 .main-menu {
 	width: 100%;
 	background-color: #F0F0F0;
@@ -260,19 +262,36 @@
 }
 
 .section {
-	margin: 60px 0;
+	margin: 40px 0 10px 0;
 }
 
 .square-blocks span {
-	font-size: 52pt;
-	color: #8E00CC; 
+	font-size: 45pt;
+	color: #B00FCC; 
+	
 }
 
 .square-blocks a {
 	text-decoration: none;
 	color: #000;
+
 }
 .slika_me{
-	padding-left: 0px;
+	padding-left: 60px;
 	padding-right: 0px;
+}
+.section p {
+		font-family: 'Yanone Kaffeesatz', sans-serif;
+		font-size: 18px;
+}
+.section p1{
+	font-family: 'Marck Script', cursive;
+	font-size: 25px;
+	text-align: center;
+	
+}
+.section h1{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 40px;
+	text-transform: uppercase;
 }
