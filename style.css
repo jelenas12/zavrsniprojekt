@@ -60,7 +60,8 @@
 	font-size: 20pt;
 	padding-left: 40px;
 	padding-right: 40px;
-	font-family: 'Gloria Hallelujah', cursive;
+	
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 .main-menu li:hover {
 	background-color: #D0D0D0;
