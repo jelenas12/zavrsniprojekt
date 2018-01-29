@@ -287,7 +287,6 @@ body {
 	margin: 30px 0;
 	text-transform: uppercase;
 }
-
 .section {
 	margin: 40px 0 10px 0;
 }
@@ -301,7 +300,7 @@ body {
 .square-blocks a {
 	text-decoration: none;
 	color: #000;
-	font-size:30px;
+	font-size:30pt;
 
 }
 .slika_me{
