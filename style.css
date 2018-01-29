@@ -276,7 +276,7 @@ body {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
-	font-size: 30pt;
+	font-size: 22pt;
 	text-transform: uppercase;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
@@ -301,6 +301,7 @@ body {
 .square-blocks a {
 	text-decoration: none;
 	color: #000;
+	font-size:30px;
 
 }
 .slika_me{
