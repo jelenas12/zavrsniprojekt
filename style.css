@@ -1,6 +1,6 @@
 body {
     background-image: url("img/gplaypattern.png") ;
-	
+	text-align:center;
 }
 
 
@@ -130,6 +130,7 @@ body {
 	margin-top: 60px;
 	margin-bottom: 20px;
 	color: #000;
+	text-align: left;
 	
 }
 
