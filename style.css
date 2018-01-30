@@ -321,6 +321,8 @@ body {
 .section p2 {
 		font-family: 'Yanone Kaffeesatz', sans-serif;
 		font-size: 25px;
+	text-transform: uppercase;
+	text-align:center;
 	
 }
 
