@@ -307,18 +307,22 @@ body {
 	padding-left: 60px;
 	padding-right: 0px;
 }
-.section p1 {
+.section p {
 		font-family: 'Yanone Kaffeesatz', sans-serif;
 		font-size: 18px;
 	
 }
-.section p2 {
+.section p1 {
 	font-family: 'Marck Script', cursive;
 	font-size: 25px;
 	text-align: center;
 	
 }
-
+.section p2 {
+		font-family: 'Yanone Kaffeesatz', sans-serif;
+		font-size: 25px;
+	
+}
 
 .section h1{
 	font-family: 'Yanone Kaffeesatz', sans-serif;
